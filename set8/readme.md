@@ -8,8 +8,10 @@ Create a Simple Calculator using Java AWT. Use TextField components for input an
 <img width="399" height="332" alt="image" src="https://github.com/user-attachments/assets/ee189eb7-acfa-41ca-9ddd-168d27aa3fbf" />
 
 5.	Event Sources, Event Classes and Listeners
-Develop an AWT-based Color Selection Application containing buttons or other suitable controls for selecting different colors. When the user selects a color, change the background color of the Panel or Frame. Identify and use the appropriate event source, event class, and listener interface for handling the user actions. 
-6.	Mouse and Keyboard Events with Adapter Classes
+Develop an AWT-based Color Selection Application containing buttons or other suitable controls for selecting different colors. When the user selects a color, change the background color of the Panel or Frame. Identify and use the appropriate event source, event class, and listener interface for handling the user actions.
+<img width="405" height="240" alt="image" src="https://github.com/user-attachments/assets/7bfd8317-d69c-4dc6-8973-a62afdd0ebca" />
+
+7.	Mouse and Keyboard Events with Adapter Classes
 Develop an AWT application that displays the current mouse position inside a Frame. The application should respond to mouse clicks, mouse movement, and keyboard events. Use appropriate event listener interfaces and demonstrate the use of adapter classes to avoid implementing unnecessary listener methods. 
-7.	Integrated AWT Event-Driven Application
+8.	Integrated AWT Event-Driven Application
 Design and implement a Student Performance Management System using Java AWT. The interface should contain text fields for student details, controls for entering marks, buttons for calculating total and average, and a suitable component for displaying the result. Use Frame, Panel, appropriate layout managers, AWT controls, and event listeners. Include suitable window-closing event handling using an adapter class.
