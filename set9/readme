@@ -1,0 +1,36 @@
+Java Swing (JFC) and Swing Components
+Swing (JFC) – Lab Practice Questions
+1.	Student Registration Form
+Develop a Java Swing application to create a Student Registration Form using JLabel, JTextField, JRadioButton, JCheckBox, JComboBox, and JButton. 
+o	Accept student name, register number, gender, course, and hobbies. 
+o	Use a suitable layout manager. 
+o	Display the entered details when the Submit button is clicked. 
+o	Provide a Clear button to reset all fields. 
+2.	Simple Calculator using Swing Components
+Develop a GUI-based calculator using Swing components such as JTextField and JButton. 
+o	Provide buttons for addition, subtraction, multiplication, and division. 
+o	Accept two numbers from the user. 
+o	Display the result in a text field or label. 
+o	Handle invalid input and division by zero using appropriate exception handling. 
+3.	Student Mark List Application
+Create a Swing application to accept the name, register number, and marks in three subjects using text fields. 
+o	Calculate total, average, and grade. 
+o	Display the result using JLabel or JTextArea. 
+o	Use JButton for Calculate, Clear, and Exit operations. 
+o	Validate that the entered marks are within the range 0–100. 
+4.	Login and User Authentication Interface
+Design a Java Swing application containing JLabel, JTextField, JPasswordField, and JButton components to create a Login Form. 
+o	Accept username and password. 
+o	Verify the entered credentials against predefined values. 
+o	Display appropriate success or error messages using JOptionPane. 
+o	Include Reset and Exit buttons. 
+o	Ensure that the password is not displayed as plain text. 
+5.	Library Book Management GUI
+Develop a Swing-based Library Book Management interface using JTextField, JComboBox, JTable, JButton, JOptionPane, and appropriate layout managers.
+The application should allow the user to: 
+o	Enter book ID, title, author, and category. 
+o	Add book details to a table. 
+o	Delete a selected book from the table. 
+o	Clear the input fields. 
+o	Display a message when no table row is selected for deletion.
+
