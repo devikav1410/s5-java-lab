@@ -4,8 +4,8 @@ import java.sql.*;
 public class StudentCRUD {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/studentdb";
-        String user = "root";       
-        String password = "yourpassword"; 
+        String user = "jdbcuser";       
+        String password = "jdbcpass"; 
 
         try {
            

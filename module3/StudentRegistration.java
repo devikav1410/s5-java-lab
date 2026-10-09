@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class StudentRegistration {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/studentdb";
-        String user = "root";       // replace with your MySQL username
-        String password = "yourpassword"; // replace with your MySQL password
+        String user = "jdbcuser";       
+        String password = "jdbcpass"; 
 
         try {
             
