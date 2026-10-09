@@ -1,0 +1,3 @@
+1. JDBC Architecture & Basic Database Connection  [orig. Roll 20, Q1] Write a Java program to connect to a MySQL database using JDBC and display a successful connection message. 
+2. MySQL CRUD Using JDBC  [orig. Roll 20, Q2] Create a student database/table and implement INSERT, UPDATE, DELETE and SELECT operations using JDBC Statement. 
+3. PreparedStatement for Parameterized Operations  [orig. Roll 20, Q3] Develop a student registration program using PreparedStatement to insert and search student records based on user input. 
