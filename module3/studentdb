@@ -1,8 +1,37 @@
-CREATE DATABASE studentdb;
+CREATE DATABASE IF NOT EXISTS studentdb;
 USE studentdb;
 
-CREATE TABLE students (
+CREATE TABLE IF NOT EXISTS students (
     id INT PRIMARY KEY,
     name VARCHAR(50),
     age INT
 );
+
+INSERT IGNORE INTO students VALUES 
+(1, 'Alice', 20),
+(2, 'Bob', 22),
+(3, 'Charlie', 21);
+
+CREATE TABLE IF NOT EXISTS accounts (
+    account_no INT PRIMARY KEY,
+    holder_name VARCHAR(50),
+    balance DOUBLE
+);
+
+INSERT IGNORE INTO accounts VALUES 
+(101, 'John', 5000),
+(102, 'Jane', 3000);
+
+CREATE TABLE IF NOT EXISTS files_data (
+    id INT PRIMARY KEY,
+    image_data LONGBLOB,
+    document_data LONGTEXT
+);
+
+DROP PROCEDURE IF EXISTS getStudentDetails;
+DELIMITER //
+CREATE PROCEDURE getStudentDetails(IN s_id INT, OUT s_name VARCHAR(50), OUT s_age INT)
+BEGIN
+    SELECT name, age INTO s_name, s_age FROM students WHERE id = s_id;
+END //
+DELIMITER ;
